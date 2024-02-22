@@ -42,3 +42,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# FVM Version Cache
+.fvm/
+.fvmrc
+.vscode
+
+# Keys
+/lib/keys.dart

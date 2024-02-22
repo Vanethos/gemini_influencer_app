@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:gemini_influencer_app/screens/input_screen.dart';
 
+late final String geminiApiKey;
+
 void main() {
+  geminiApiKey = const String.fromEnvironment("API-KEY", defaultValue: '');
+
   runApp(const MyApp());
 }
 
