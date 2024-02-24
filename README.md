@@ -2,7 +2,7 @@
 
 An app that showcases how we can generate posts for our favorite Social Media, helping all the influencer's out there!
 
-![Demo](/resources/InfluencerSuitezDemo.mov)
+![Demo](/resources/InfluencerSuitezDemo.mp4)
 
 This repository contains the app used in the article [Using Gemini to Solve User’s Problems]()
 
