@@ -40,7 +40,7 @@ Future<String?> generate(
     ),
   ];
 
-  final compressedImage = await compressImageAndConvertToPng(imagePath);
+  final compressedImage = await compressImageAndConvertToWebP(imagePath);
 
   if (compressedImage == null) {
     throw Exception("Error while compressing image");
@@ -72,7 +72,7 @@ Future<String?> generate(
   return response.text;
 }
 
-Future<XFile?> compressImageAndConvertToPng(String filePath) async {
+Future<XFile?> compressImageAndConvertToWebP(String filePath) async {
   try {
     final File file = File(filePath);
     final String targetPath =
