@@ -1,16 +1,15 @@
-# gemini_influencer_app
+# Gemini Influencer SuiteZ App
 
-A new Flutter project.
+An app that showcases how we can generate posts for our favorite Social Media, helping all the influencer's out there!
 
-## Getting Started
+![Demo](/resources/InfluencerSuitezDemo.mov)
 
-This project is a starting point for a Flutter application.
+This repository contains the app used in the article [Using Gemini to Solve User’s Problems]()
 
-A few resources to get you started if this is your first Flutter project:
+## How to Run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Follow the instructions on the [article]() to get an API key, and then you can run the app by using:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```shell
+flutter run --dart-define=API-KEY=<api-key>
+```
